@@ -16,6 +16,7 @@ This is a simple chrome extension to enable/disable other chrome extensions (wit
 - If the initialisation happens correctly, the icon will be
   - `green` if the target extension is enabled
   - `red` if the target extension is disabled
+- Clicking on the extension icon will toggle it (and changing it yourself on extensions page will also reflect in the icon colour)
 
 ## Note to developers
 - Currently the target extension ID has been set to that of the `Screen Reader` extension inside the `background.js` file
